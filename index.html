@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flip Number</title>
+  </head>
+  <body>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .flip {
+        margin: 50px;
+      }
+      .flip ul {
+        width: 240px;
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        border: solid 2px #ccc;
+        border-radius: 10px;
+        margin: 0px;
+        padding: 0px;
+        cursor: pointer;
+      }
+      .flip ul li {
+        border-radius: 10px;
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+      }
+      .flip ul li button {
+        border: solid 2px #999;
+        line-height: 44px;
+        width: 50px;
+        height: 50px;
+        background: white;
+        font-size: 25px;
+        font-weight: bold;
+        border-radius: 10px;
+      }
+      .flip ul li.empty {
+        background-color: #ccc;
+      }
+      .btns {
+        padding: 50px;
+      }
+    </style>
+    <div class="flip">
+      <ul class="game">
+        <li>
+          <button>13</button>
+        </li>
+        <li>
+          <button>14</button>
+        </li>
+        <li class="empty"></li>
+        <li>
+          <button>4</button>
+        </li>
+        <li>
+          <button>12</button>
+        </li>
+        <li>
+          <button>3</button>
+        </li>
+        <li>
+          <button>7</button>
+        </li>
+        <li>
+          <button>9</button>
+        </li>
+        <li>
+          <button>2</button>
+        </li>
+        <li>
+          <button>8</button>
+        </li>
+        <li>
+          <button>5</button>
+        </li>
+        <li>
+          <button>10</button>
+        </li>
+        <li>
+          <button>11</button>
+        </li>
+        <li>
+          <button>6</button>
+        </li>
+        <li>
+          <button>1</button>
+        </li>
+        <li>
+          <button>15</button>
+        </li>
+      </ul>
+      <div class="btns"><button>New Game</button></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
